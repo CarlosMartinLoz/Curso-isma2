@@ -6,6 +6,8 @@ public class PaginatedSearchRequest {
 	
 	private Integer limit;
 	
+	private String ddd;
+	
 	private Optional<String> filter = Optional.empty();
 
 	public Integer getLimit() {
